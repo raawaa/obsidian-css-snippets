@@ -1,0 +1,8 @@
+.cm-s-obsidian span.cm-formatting-highlight,
+.cm-s-obsidian span.cm-highlight {
+    /* background-color: transparent; */
+    /* text-decoration: underline solid var(--text-highlight-bg) 0.5em; */
+    /* text-underline-offset: -0.5em; */
+    border-radius: 3px;
+    padding: 0px 2px;
+}

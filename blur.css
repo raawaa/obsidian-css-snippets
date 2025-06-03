@@ -1,0 +1,13 @@
+/* PREVIEW MODE */
+
+div.markdown-preview-view,
+.markdown-preview-view {
+  filter: blur(0.3px);
+}
+
+/* EDIT MODE */
+
+.cm-s-obsidian,
+.markdown-source-view {
+  filter: blur(0.3px);
+}

@@ -1,0 +1,27 @@
+
+/* editor mode */
+.markdown-source-view.mod-cm6 .cm-indent::before {
+    content: "\200B";
+    display: block;
+    width: 0.25ex;
+    border-right: 2px solid var(--indentation-guide);
+    color: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+
+
+
+
+/* preview mode */
+.markdown-rendered.show-indentation-guide li > ul::before, .markdown-rendered.show-indentation-guide li > ol::before {
+    content: "\200B";
+    position: absolute;
+    display: block;
+    left: -1em;
+    top: 0;
+    bottom: 0;
+    border-right: 2px solid var(--indentation-guide);
+}

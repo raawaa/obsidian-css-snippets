@@ -1,0 +1,12 @@
+/* define underline offset */
+.markdown-source-view .cm-underline,
+.markdown-reading-view .internal-link,
+.markdown-reading-view .external-link{
+    text-underline-offset: 4px;
+}
+
+
+/* disable internal link underline when hover */
+.cm-url, .cm-link, .cm-s-obsidian span.cm-hmd-internal-link:hover{
+    text-decoration: none !important; 
+}

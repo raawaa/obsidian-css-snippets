@@ -1,0 +1,9 @@
+.theme-light code[class*="language-"],
+.theme-light pre[class*="language-"] {
+  font-family: "等距更纱黑体 SC", monospace;
+}
+
+.theme-dark code[class*="language-"],
+.theme-dark pre[class*="language-"] {
+  font-family: "等距更纱黑体 SC", monospace;
+}

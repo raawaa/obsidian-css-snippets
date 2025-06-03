@@ -1,0 +1,6 @@
+/* EDIT MODE BULLET FIX */
+.markdown-source-view.mod-cm6 .list-bullet:after {
+  /* top: auto; */
+  top: auto;
+  left: -0.25em;
+}

@@ -1,0 +1,9 @@
+/* EDIT MODE */
+.cm-s-obsidian,
+.cm-s-obsidian .cm-formatting-hashtag,
+.cm-s-obsidian span.cm-formatting-task,
+.markdown-source-view,
+.markdown-source-view.mod-cm6 .cm-scroller {
+  line-height: 1.6em;
+
+}
