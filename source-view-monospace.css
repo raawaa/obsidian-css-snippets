@@ -1,0 +1,4 @@
+.markdown-source-view.mod-cm6:not(.is-live-preview) .cm-scroller {
+    /* 在此添加需要覆盖的样式 */
+    font-family: var(--font-monospace) !important;
+}
