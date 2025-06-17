@@ -1,0 +1,17 @@
+/* 全局禁用字体 Hinting（适用于所有界面元素） */
+body {
+    /* 禁用子像素渲染（适用于 macOS 视网膜屏/高 DPI 屏幕） */
+    -webkit-font-smoothing: antialiased !important;  /* 无衬线字体更清晰 */
+    -moz-osx-font-smoothing: grayscale !important;   /* 强制灰度抗锯齿 */
+    
+    /* 禁用 Hinting（适用于 Windows/Linux 等系统） */
+    text-rendering: geometricPrecision !important;    /* 优先几何精度（禁用 Hinting） */
+    font-smooth: never !important;                   /* 禁用字体平滑（部分浏览器支持） */
+  }
+  
+  /* 针对编辑器模式（源码/实时预览）的额外调整 */
+  .cm-content, .markdown-preview-view {
+    /* 强制使用无 Hinting 的字体渲染 */
+    -webkit-font-smoothing: subpixel-antialiased !important;  /* 可选：保留子像素但禁用 Hinting */
+    font-feature-settings: "liga" 0, "clig" 0 !important;     /* 禁用连字（可能影响 Hinting） */
+  }

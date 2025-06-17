@@ -1,0 +1,4 @@
+/* Don't wrap codeblocks */
+HyperMD-codeblock, pre > code, code[class*="language-"] {
+  white-space: pre !important;
+}
